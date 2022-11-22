@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  become: true
+  tasks:
+    - name: "Installing apache server"
+      ansible.builtin.apk:
+        name: apache2
+        state: present
