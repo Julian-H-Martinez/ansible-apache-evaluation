@@ -1,0 +1,20 @@
+{
+    "name": "ansible",
+    "build": {
+        "dockerfile": "ansible"
+    },
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "johnpapa.angular2",
+                "ms-python.python",
+                "ms-vscode-remote.remote-ssh",
+                "redhat.ansible",
+                "redhat.vscode-yaml"
+            ]
+        }
+    }
+    
+    // "features": {"ghcr.io/devcontainers/features/git:1":{}}
+}
